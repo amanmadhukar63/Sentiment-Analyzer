@@ -1,0 +1,36 @@
+.nav-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
+    align-items: center;
+    color : white;
+}
+
+.route-section{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    width: 10%;
+    height: 40%;
+    border-radius: 15px;
+    background-color: #F44E77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    color: black;
+    cursor: pointer;
+    
+    background-color: #f3446f;
+}
